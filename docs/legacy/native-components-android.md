@@ -848,7 +848,7 @@ const createFragment = viewId =>
     [viewId],
   );
 
-export const MyView = () => {
+export const MyView = () =>{
   const ref = useRef(null);
 
   useEffect(() => {
